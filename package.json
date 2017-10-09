@@ -1,0 +1,24 @@
+{
+  "name": "employment-portfolio",
+  "version": "1.0.0",
+  "description": "Employment Portfolio that maintains public/personal employment portfolio of every employee. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codingkapoor/employment-portfolio.git"
+  },
+  "author": "codingkapoor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codingkapoor/employment-portfolio/issues"
+  },
+  "homepage": "https://github.com/codingkapoor/employment-portfolio#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.1",
+    "mongoose": "^4.12.1"
+  }
+}
