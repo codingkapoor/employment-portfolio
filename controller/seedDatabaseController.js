@@ -5,6 +5,26 @@ module.exports = function(app) {
 
     var starterEmployees = [
       {
+      	empId: 19,
+      	firstName: "Rohan",
+      	lastName: "Sinha",
+      	dob: new Date(),
+      	gender: "Male",
+      	address: {
+      		houseNumber: "1",
+      		street: "21st Cross, 1th Main, 5th Block, Indira Nagar",
+      		city: "Bangalore",
+      		state: "Karnataka",
+      		pinCode: "560033"
+      	},
+      	phone: 9661206887,
+      	mailId: "roshan.sinha@glassbeam.com",
+      	doj: new Date(),
+      	designation: "Engineering Manager",
+      	department: "development",
+      	salary: 1850000
+      },
+      {
       	empId: 128,
       	firstName: "Kunal",
       	lastName: "Mehra",
