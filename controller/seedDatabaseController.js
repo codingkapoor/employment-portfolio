@@ -1,5 +1,8 @@
 var Employee = require('../model/employee');
 
+// TODO: Seed only when there is no data present already in the database.
+// TODO: Configure in-memory database.
+
 module.exports = function(app) {
   app.get('/api/seedDatabase', function(req, res) {
 
