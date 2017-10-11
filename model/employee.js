@@ -3,7 +3,7 @@ var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
 var EmployeeSchema = new Schema({
-  employeeId: Number,
+  empId: Number,
   firstName: String,
   lastName: String,
   dob: Date,
