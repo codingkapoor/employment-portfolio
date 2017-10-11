@@ -14,7 +14,7 @@ module.exports = function(app) {
   });
 
   app.get('/api/employees/:empId', function(req, res){
-    Employee.find({empId: req.params.empId}, function(err, employee) {
+    Employee.find({ empId: req.params.empId }, function(err, employee) {
       if(err) throw err;
       res.send(employee);
     });

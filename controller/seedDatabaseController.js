@@ -5,43 +5,43 @@ module.exports = function(app) {
 
     var starterEmployees = [
       {
-      	empId: 19,
-      	firstName: "Rohan",
-      	lastName: "Sinha",
-      	dob: new Date("March 25 1970"),
-      	gender: "Male",
-      	address: {
-      		houseNumber: "1",
-      		street: "21st Cross, 1th Main, 5th Block, Indira Nagar",
-      		city: "Bangalore",
-      		state: "Karnataka",
-      		pinCode: "560033"
-      	},
-      	phone: 9661206887,
-      	mailId: "roshan.sinha@glassbeam.com",
-      	doj: new Date("January 16 2015"),
-      	designation: "Engineering Manager",
-      	salary: 1850000
+        empId: 19,
+        firstName: "Rohan",
+        lastName: "Sinha",
+        dob: new Date("March 25 1970"),
+        gender: "Male",
+        address: {
+          houseNumber: "1",
+          street: "21st Cross, 1th Main, 5th Block, Indira Nagar",
+          city: "Bangalore",
+          state: "Karnataka",
+          pinCode: 560033
+        },
+        phone: 9661206887,
+        email: "roshan.sinha@glassbeam.com",
+        doj: new Date("January 16 2015"),
+        designation: "Engineering Manager",
+        salary: 1850000
       },
       {
-      	empId: 128,
-      	firstName: "Kunal",
-      	lastName: "Mehra",
-      	dob: new Date("October 15 1987"),
-      	gender: "Male",
-      	address: {
-      		houseNumber: "11",
-      		street: "1st Cross, 19th Main, 5th Block, Koramangala",
-      		city: "Bangalore",
-      		state: "Karnataka",
-      		pinCode: "560095"
-      	},
-      	phone: 9661206887,
-      	mailId: "kunal.mehra@glassbeam.com",
-      	doj: new Date("March 21 2017"),
-      	designation: "Software Developer",
-      	salary: 850000,
-      	managerId: 19
+        empId: 128,
+        firstName: "Kunal",
+        lastName: "Mehra",
+        dob: new Date("October 15 1987"),
+        gender: "Male",
+        address: {
+          houseNumber: "11",
+          street: "1st Cross, 19th Main, 5th Block, Koramangala",
+          city: "Bangalore",
+          state: "Karnataka",
+          pinCode: 560095
+        },
+        phone: 9661206887,
+        email: "kunal.mehra@glassbeam.com",
+        doj: new Date("March 21 2017"),
+        designation: "Software Developer",
+        salary: 850000,
+        managerId: 19
       },
       {
         empId: 129,
@@ -54,10 +54,10 @@ module.exports = function(app) {
           street: "1st Cross, 11th Main, 6th Block, Halasuru",
           city: "Bangalore",
           state: "Karnataka",
-          pinCode: "560042"
+          pinCode: 560042
         },
         phone: 8963006554,
-        mailId: "neha.kamat@glassbeam.com",
+        email: "neha.kamat@glassbeam.com",
         doj: new Date("August 3 2013"),
         designation: "Technical Lead",
         salary: 1100000,
@@ -66,7 +66,7 @@ module.exports = function(app) {
     ];
 
     Employee.create(starterEmployees, function(err, results) {
-      if(err) throw err;
+      if (err) throw err;
       res.send(results);
     });
   });
