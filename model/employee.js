@@ -7,7 +7,7 @@ var EmployeeSchema = new Schema({
   firstName: String,
   lastName: String,
   dob: Date,
-  gender: String,
+  gender: { type: String, enum: ["Male", "Female"] },
   address: {
     houseNumber: String,
     street: String,

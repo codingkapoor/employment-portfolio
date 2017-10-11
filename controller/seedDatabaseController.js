@@ -8,7 +8,7 @@ module.exports = function(app) {
       	empId: 19,
       	firstName: "Rohan",
       	lastName: "Sinha",
-      	dob: new Date(),
+      	dob: new Date("March 25 1970"),
       	gender: "Male",
       	address: {
       		houseNumber: "1",
@@ -19,16 +19,15 @@ module.exports = function(app) {
       	},
       	phone: 9661206887,
       	mailId: "roshan.sinha@glassbeam.com",
-      	doj: new Date(),
+      	doj: new Date("January 16 2015"),
       	designation: "Engineering Manager",
-      	department: "development",
       	salary: 1850000
       },
       {
       	empId: 128,
       	firstName: "Kunal",
       	lastName: "Mehra",
-      	dob: new Date(),
+      	dob: new Date("October 15 1987"),
       	gender: "Male",
       	address: {
       		houseNumber: "11",
@@ -39,18 +38,17 @@ module.exports = function(app) {
       	},
       	phone: 9661206887,
       	mailId: "kunal.mehra@glassbeam.com",
-      	doj: new Date(),
+      	doj: new Date("March 21 2017"),
       	designation: "Software Developer",
-      	department: "development",
       	salary: 850000,
       	managerId: 19
       },
       {
         empId: 129,
-        firstName: "Vishal",
+        firstName: "Neha",
         lastName: "Kamat",
-        dob: new Date(),
-        gender: "Male",
+        dob: new Date("December 29 1985"),
+        gender: "Female",
         address: {
           houseNumber: "12",
           street: "1st Cross, 11th Main, 6th Block, Halasuru",
@@ -59,10 +57,9 @@ module.exports = function(app) {
           pinCode: "560042"
         },
         phone: 8963006554,
-        mailId: "vishal.kamat@glassbeam.com",
-        doj: new Date(),
+        mailId: "neha.kamat@glassbeam.com",
+        doj: new Date("August 3 2013"),
         designation: "Technical Lead",
-        department: "development",
         salary: 1100000,
         managerId: 19
       }
